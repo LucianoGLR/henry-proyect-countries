@@ -1,0 +1,11 @@
+.cards-container {
+    display: flex; /* Utiliza flexbox para que los elementos se alineen en una fila */
+    flex-wrap: wrap; /* Permite que los elementos se coloquen en múltiples filas */
+    justify-content: space-between; /* Distribuye el espacio entre las tarjetas */
+}
+
+.page-link{
+    background-color: rgb(92, 84, 112);
+    margin-bottom: 5px;
+    margin-top: 0px;
+}

@@ -1,0 +1,25 @@
+/* activity-card.styles.css */
+
+.activity-card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Espacio entre las tarjetas */
+  }
+  
+  .activity {
+    flex-basis: calc(33.33% - 20px); /* Ancho de cada tarjeta */
+    margin-bottom: 20px; /* Espacio debajo de cada tarjeta */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9; /* Color de fondo de la tarjeta */
+  }
+  
+  .activity h3 {
+    margin-bottom: 10px; /* Espacio inferior del título */
+  }
+  
+  .activity p {
+    margin-bottom: 5px; /* Espacio inferior de los párrafos */
+  }
+  

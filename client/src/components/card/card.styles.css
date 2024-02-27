@@ -1,0 +1,31 @@
+.card-container {
+    width: 200px; /* Define el ancho deseado para la tarjeta */
+    margin-bottom: 20px;
+    /* margin-right: 20px; */
+    padding: 20px; /* Agrega un relleno para el contenido interno de la tarjeta */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.429);
+    border-radius: 8px; /* Agrega bordes redondeados a la tarjeta */
+    background-color: rgba(185, 180, 199, 0.712); /*Define el color de fondo de la tarjeta*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #273562d6;
+    backdrop-filter: blur(3px);
+}
+
+.card-container img {
+    width: 100%; /* Establece el ancho de la imagen al 100% del contenedor */
+    max-width: 100%; /* Asegura que la imagen no se agrande más allá de su tamaño original */
+    height: auto; /* Permite que la altura se ajuste automáticamente para mantener la proporción */
+  }
+
+  .Link {
+    color: inherit; /* Hereda el color del texto de su contenedor */
+    text-decoration: none; /* Quita la subrayado predeterminado */
+  }
+
+  .Link:hover {
+    color: inherit; /* Hereda el color del texto de su contenedor */
+    text-decoration: none; /* Quita la subrayado predeterminado */
+  }

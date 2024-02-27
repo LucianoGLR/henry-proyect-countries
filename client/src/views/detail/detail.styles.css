@@ -1,0 +1,36 @@
+.detail-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    width: 350px; /* Define el ancho deseado para la tarjeta */
+    margin-bottom: 20px;
+    /* margin-right: 20px; */
+    padding: 20px; /* Agrega un relleno para el contenido interno de la tarjeta */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.429);
+    border-radius: 8px; /* Agrega bordes redondeados a la tarjeta */
+    background-color: rgba(185, 180, 199, 0.712); /* Define el color de fondo de la tarjeta */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #273562d6;
+    max-height: 750px;
+    /* color: #282f44; */
+    font-size: large;
+    /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+}
+
+.card img {
+    width: 100%; /* Establece el ancho de la imagen al 100% del contenedor */
+    max-width: 100%; /* Asegura que la imagen no se agrande más allá de su tamaño original */
+    height: auto; /* Permite que la altura se ajuste automáticamente para mantener la proporción */
+  }
+
+p {
+    font-family:system-ui ;
+    font-size: larger;
+    font-weight:700;
+}

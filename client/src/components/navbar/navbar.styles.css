@@ -1,0 +1,57 @@
+.nav-container {
+  background-color: rgba(185, 180, 199, 0.744);
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+   /* Eliminar completamente el borde */
+}
+
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  /* Estilos para los botones */
+  nav a {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: rgb(92, 84, 112);
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+    margin-left: 0;
+  }
+  
+  .btn {
+    background-color: rgb(92, 84, 112);
+    margin-left: 5px;
+    border-radius: 16px;
+  }
+
+  .btn a:active {
+    background-color: #282f4481;
+  }
+
+  nav a:hover {
+    background-color: #282f44bb;
+  }
+  
+  nav a:active {
+    background-color: #282f44e0;
+  }
+
+  .input{
+      padding: 8px 12px;
+      border-radius: 20px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+  }

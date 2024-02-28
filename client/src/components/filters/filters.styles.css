@@ -1,13 +1,14 @@
-.filters-container {
+.hola {
   display: flex;
-  justify-content: space-between;
+  justify-content:center;
   align-items: center;
-  flex-wrap: wrap;
 }
-
-.filter-button {
-  margin-right: 10px;
-  margin-bottom: 10px; /* Espacio entre los botones en la misma fila */
+  
+.filter-button {    
+  background-color: rgb(92, 84, 112);
+  margin-left: 5px;
+  border-radius: 16px;
+  margin-bottom: 10px;
 }
 
 .activity-filter {
@@ -30,8 +31,11 @@
   margin-top: 20px; /* Espacio entre las actividades y los controles de paginación */
   display: flex;
   justify-content: center;
+  
 }
 
 .pagination button {
-  margin-right: 10px;
+  background-color: rgb(92, 84, 112);
+  margin-left: 10px;
+  border-radius: 10px;
 }

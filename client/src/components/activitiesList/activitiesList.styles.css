@@ -1,0 +1,20 @@
+.cards-box {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Establecer el ancho mínimo y máximo de las columnas */
+  grid-gap: 20px; /* Espacio entre las tarjetas */
+  align-items: center;
+  justify-content: center;
+  margin-left: auto; /* Centrar horizontalmente */
+  margin-right: auto; /* Centrar horizontalmente */
+  max-width: 1200px; /* Opcional: definir un ancho máximo */
+}
+
+  
+  .card-container {
+    border: 1px solid #ccc; /* Borde opcional */
+    border-radius: 5px; /* Bordes redondeados opcional */
+    padding: 10px; /* Espacio interior opcional */
+  }
+  
+  /* Ajustes adicionales según sea necesario */
+  

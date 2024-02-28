@@ -1,13 +1,14 @@
 import { combineReducers } from 'redux';
-import { GET_COUNTRIES, SEARCH_COUNTRIES, GET_COUNTRY_DETAIL } from '../actions/actions';
+import { GET_COUNTRIES, SEARCH_COUNTRIES, GET_COUNTRY_DETAIL, GET_ACTIVITIES, CLEAR_ACTIVITIES } from '../actions/actions';
 
 let initialState = {
   allCountries: [],
   filteredCountries: [],
+  activities: [],
   countryDetail: null
 };
 
-function countriesReducer(state = initialState, action) {
+export function countriesReducer(state = initialState, action) {
   switch (action.type) {
     case GET_COUNTRIES:
       return {
@@ -30,6 +31,27 @@ function countriesReducer(state = initialState, action) {
   }
 }
 
+export function activitiesReducer(state = initialState, action) {
+  switch (action.type) {
+    case GET_ACTIVITIES:
+      return {
+        ...state,
+        activities: action.payload, // Cambiado de 'activities' a 'filteredActivities'
+        error: null
+      };
+      case CLEAR_ACTIVITIES:
+        return {
+          ...state,
+          activities: [],
+          error: null
+        };
+    default:
+      return state;
+  }
+}
+
+
 export default combineReducers({
-  countries: countriesReducer
+  countries: countriesReducer,
+  activities: activitiesReducer
 });

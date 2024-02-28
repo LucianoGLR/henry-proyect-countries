@@ -36,9 +36,9 @@ const Navbar = () => {
           <li>
             <Link to="/home" onClick={handleHomeClick}>Home</Link>
           </li>
-          <li style={{ display: location.pathname !== '/activities' ? 'inline-block' : 'none', marginRight: '10px' }}>
+          {/* <li style={{ display: location.pathname !== '/activities' ? 'inline-block' : 'none', marginRight: '10px' }}>
             <Link to="/activities">Activities</Link>
-          </li>
+          </li> */}
           <li style={{ display: location.pathname !== '/form' ? 'inline-block' : 'none', marginRight: '10px' }}>
             <Link to="/form">Form</Link>
           </li>
